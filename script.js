@@ -6,7 +6,7 @@ function renderBox(){
             const div = document.createElement("div");
             div.id = `${row}/${col}`;
             div.classList.add("h-14","w-14","border-1");
-            div.textContent= `${row}/${col}`;
+            // div.textContent= `${row}/${col}`;
             main.appendChild(div);
         }
     }
